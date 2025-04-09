@@ -1,7 +1,20 @@
-body
-{
-    background-image: url("cool-background.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
+.encabezado {
+    background-image: url("cool-background\ \(1\).jpeg");
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenedor de icono + texto */
+.titulo-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Estilo del título */
+h1 {
+    font-size: 48px;
+    font-family: 'Brush Script MT', cursive;
+    color: #333;
+    margin: 0;
 }
