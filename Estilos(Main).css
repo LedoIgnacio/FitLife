@@ -1,21 +1,29 @@
-.encabezado {
+body
+{
     background-color: #333;
-    background-image: url("cool-background\ \(1\).jpeg");
-    padding: 20px;
+}
+
+.encabezado 
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(39deg, rgb(33, 33, 41) 0%, rgba(0,0,0,1) 75%, rgba(255,255,255,1) 100%);
+    padding: 15px;
     text-align: center;
 }
 
 /* Contenedor de icono + texto */
-.titulo-container {
+.titulo-container 
+{
     display: inline-flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 /* Estilo del título */
-h1 {
+h1 
+{
     font-size: 48px;
-    font-family: 'Brush Script MT', cursive;
-    color: #333;
+    font-family: 'Copperplate', Serif;
+    color: #d2cfcf;
     margin: 0;
 }
