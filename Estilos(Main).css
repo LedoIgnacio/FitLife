@@ -30,9 +30,16 @@ h1
 
 .primer-slate
 {
-    width: 100%; 
+    width: 100%;              /* Ocupa todo el ancho disponible */
+    margin: 10px 0;           /* Margen vertical arriba y abajo */
+    padding: 10px;            /* Espacio interno */
     height: 300px;
     background-color: #d2cfcf;
 }
 
-
+.box-central1
+{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
