@@ -6,7 +6,7 @@ body
 .encabezado 
 {
     background: rgb(2,0,36);
-    background: linear-gradient(39deg, rgb(33, 33, 41) 0%, rgba(0,0,0,1) 75%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(39deg, rgb(33, 33, 41) 100%, rgba(0,0,0,1) 100%, rgba(255,255,255,1) 100%);
     padding: 20px;
     text-align: center;
 }
@@ -16,7 +16,6 @@ body
 {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
 }
 
 /* Estilo del título */
@@ -28,18 +27,47 @@ h1
     margin: 0;
 }
 
-.primer-slate
+.primer-slate 
 {
-    width: 100%;              /* Ocupa todo el ancho disponible */
-    margin: 10px 0;           /* Margen vertical arriba y abajo */
-    padding: 10px;            /* Espacio interno */
-    height: 300px;
-    background-color: #d2cfcf;
+    position: relative;             /* Para posicionar el botón arriba a la izquierda */
+    width: 100%;
+    height: 600px;                  /* Ocupa toda la altura visible */
+    
+    background-image: url("weightlifting-training-npi6gamoelyd4359.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    display: flex;
+    justify-content: center;       /* Centra .box-central1 horizontalmente */
+    align-items: center;           /* Centra .box-central1 verticalmente */
 }
 
-.box-central1
+.Menu-barras 
 {
-    display: flex;
-    justify-items: center;
-    align-items: center;
+    position: absolute;            /* Se posiciona dentro del contenedor */
+    top: 15px;                     /* Cuantos pixeles por debajo del top*/
+    left: 15px;                    /* Cuantos pixeles a la derecha del borde izquierdo*/
+    background-color: transparent;
+    border-color: #333;
+    border-radius: 10px;
+    font-size: 35px;
+    color: #d2cfcf;
+    cursor: pointer;
+}
+
+.Boton-cuestionario 
+{
+    position: absolute;
+    bottom: 450px;
+    padding: 8px 8px;
+    font-size: 22px;
+    background-color: transparent;
+    border: 2px solid #d2cfcf ;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 1.5px #d2cfcf; /* sombra que se verá como el fondo del botón */
+    font-family: 'Copperplate', Serif;
 }
