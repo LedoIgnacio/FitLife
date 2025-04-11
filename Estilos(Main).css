@@ -19,7 +19,7 @@ body
 }
 
 /* Estilo del título */
-h1 
+.Titulo-header
 {
     font-size: 48px;
     font-family: 'Copperplate', Serif;
@@ -57,7 +57,7 @@ h1
     cursor: pointer;
 }
 
-.Boton-cuestionario 
+.Boton-entrenamiento 
 {
     position: absolute;
     bottom: 450px;
@@ -70,4 +70,11 @@ h1
     cursor: pointer;
     box-shadow: 0 1.5px #d2cfcf; /* sombra que se verá como el fondo del botón */
     font-family: 'Copperplate', Serif;
+}
+
+.Titulo-slate1
+{
+    position: absolute;
+    color: ;
+    top: 210px;
 }
