@@ -33,7 +33,7 @@ body
     width: 100%;
     height: 600px;                  /* Ocupa toda la altura visible */
     
-    background-image: url("weightlifting-training-npi6gamoelyd4359.jpg");
+    background-image: url("silueta-hombre-gimnasio_23-2148024303.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,21 +60,28 @@ body
 .Boton-entrenamiento 
 {
     position: absolute;
-    bottom: 450px;
+    bottom: 270px;
     padding: 8px 8px;
     font-size: 22px;
     background-color: transparent;
     border: 2px solid #d2cfcf ;
     border-radius: 5px;
-    color: white;
+    color: #d2cfcf;
     cursor: pointer;
     box-shadow: 0 1.5px #d2cfcf; /* sombra que se verá como el fondo del botón */
     font-family: 'Copperplate', Serif;
 }
 
-.Titulo-slate1
+.Texto-slate1
 {
     position: absolute;
-    color: ;
-    top: 210px;
+    top: 30px;
+    background-color: transparent;
+    color: #d2cfcf;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Copperplate', Serif;
+    font-size: large;
 }
