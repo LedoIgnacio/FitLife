@@ -1,0 +1,31 @@
+body
+{
+    background-color: #333;
+}
+
+.Encabezado 
+{
+    position: relative;
+    background: rgb(2,0,36);
+    background: linear-gradient(39deg, rgb(33, 33, 41) 100%, rgba(0,0,0,1) 100%, rgba(255,255,255,1) 100%);
+    height: 200px;
+}
+
+/* Contenedor de icono + texto */
+.Titulo-container 
+{
+    position: absolute;
+    display: inline-flex;
+    top: 10px;
+    left: 10px;
+    
+}
+
+/* Estilo del título */
+.Titulo-header
+{
+    font-size: 48px;
+    font-family: 'Copperplate', Serif;
+    color: #d2cfcf;
+    margin: 0;
+}
